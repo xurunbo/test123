@@ -1,0 +1,7 @@
+1，创建仓库：在命令行中新建一个文件夹（mkdir），进入文件夹后使用git init进行初始化
+2，添加一点文档内容，对本文件夹进行一定改动 git add ./  git commit -m '第一次改动'
+3，在远端创建仓库，并保存远端地址
+git remote add origin https://···
+git push -u origin master
+git status 查看状态
+git log 查看过去记录
